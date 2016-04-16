@@ -1,0 +1,7 @@
+---
+applications:
+- name: loyaltyjedis-service
+  instances: 3
+  path: target/loyaltyjedis-service-0.0.1-SNAPSHOT.jar
+  services: 
+  - mysqldb
